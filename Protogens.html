@@ -10,30 +10,9 @@
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="slideshow.css">
+        <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-
-        <title>Protogens - Duckies Protogens</title>
-
-    </head>
-
-    
-        <link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-
-        <nav class="topnav">
-            <a href="./" style="line-height: 24px; padding-top: 9px;"><img src="image/home.png" alt="Home logo" style="height:35px; width:35px;"></a>
-            <div class="mobile">
-                <img src="image/xicon.png" alt="x button" id="mobile-x-button" style="position: absolute; width: 30px; height: 30px; cursor: pointer;">
-                <a href="./Protogens">Protogens</a>
-                <a href="./TOS">TOS</a>
-                <a href="./Commissions">Commissions</a>
-            </div>
-            <a href="#" style="line-height: 24px; padding-top: 9px;" id="burger"><img src="image/burbur.png" alt="menu icon" style="height:35px; width:35px;"></a>
-        </nav>
-
-        <script src="js/nav.js"></script>
-
-        <body>
-            <style>
+        <style>
             .ProtogenGallery {
                 font-family: Arial, sans-serif;
                 display: flex;
@@ -46,6 +25,7 @@
             .ProtogenGallery img {
                 max-width: 500px;
                 max-height: 330px;
+                border-radius: 10px;
 
 
                 display: block; /* Makes the image a block element */
@@ -98,8 +78,28 @@
                 width: 300px;
                 width: 30%; /* Set a width for the div (adjust as needed) */
                 margin: 0 auto; /* Set the left and right margins to auto */
+                border-radius: 10px;
             }
         </style>
+
+
+        <title>Protogens - Duckie's Protogens</title>
+
+    </head>
+
+    <body>
+        <nav class="topnav">
+            <a href="./" style="line-height: 24px; padding-top: 9px;"><img src="image/home.png" alt="Home logo" style="height:35px; width:35px;"></a>
+            <div class="mobile">
+                <img src="image/xicon.png" alt="x button" id="mobile-x-button" style="position: absolute; width: 30px; height: 30px; cursor: pointer;">
+                <a href="./Protogens">Protogens</a>
+                <a href="./TOS">TOS</a>
+                <a href="./Commissions">Commissions</a>
+            </div>
+            <a href="#" style="line-height: 24px; padding-top: 9px;" id="burger"><img src="image/burbur.png" alt="menu icon" style="height:35px; width:35px;"></a>
+        </nav>
+
+        <script src="js/nav.js"></script>  
 
         <div class="TextBanner">
             <h1>Candy the Protogen</h1>
@@ -132,7 +132,7 @@
         </div>
         <div class="video-container">
             <div class="video">
-                <video autoplay="" muted="" loop="" id="my-video" alt="Protogen looking cool blinking with eyes">
+                <video autoplay="" muted="" loop="" class="my-video" alt="Protogen looking cool blinking with eyes">
                     <source src="image/prootsrainbow.mp4" type="video/mp4">
                 </video>
             </div>
@@ -148,18 +148,16 @@
                 <img src="image/prootimg10.jpg" alt="Monster Protogen with hands raised">
             
             </div>
-       </div>
-       <div class="video-container">
-        <div class="video">
-            <video autoplay="" muted="" loop="" id="my-video" alt="Monster Protogen doing a little jiggle">
-                <source src="image/monsterprootvid.mp4" type="video/mp4">
-            </video>
         </div>
-    </div>
+        <div class="video-container">
+            <div class="video">
+                <video autoplay="" muted="" loop="" class="my-video" alt="Monster Protogen doing a little jiggle">
+                    <source src="image/monsterprootvid.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
 
 
-      
-        </body>
         <br>
         <br>
         <br>
@@ -173,13 +171,12 @@
                 <li class="menu__item"><a class="menu__link" href="./Commissions">Commissions</a></li>
             </ul>
 
-            <p>&copy;2024 Duckies Protogens</p>
+            <p>&copy;2024 Duckie's Protogens</p>
         </footer>
 
         <script src="js/slideshow.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    
+    </body>
 
 </html>
